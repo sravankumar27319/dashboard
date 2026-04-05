@@ -75,7 +75,7 @@
 
 ## ⚙️ Installation & Setup
 S
-git clone https://github.com/sravankumar27319/findash.git
+git clone https://github.com/sravankumar27319/dashboard.git
 cd findash
 npm install
 npm run dev
