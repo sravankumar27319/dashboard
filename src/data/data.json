@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "totalRevenue": 284500,
+    "totalExpenses": 167300,
+    "netProfit": 117200,
+    "profitMargin": 41.2
+  },
+  "monthlyData": [
+    { "month": "Jan", "income": 22000, "expenses": 13500, "profit": 8500 },
+    { "month": "Feb", "income": 19500, "expenses": 12000, "profit": 7500 },
+    { "month": "Mar", "income": 25000, "expenses": 14800, "profit": 10200 },
+    { "month": "Apr", "income": 23800, "expenses": 13200, "profit": 10600 },
+    { "month": "May", "income": 27000, "expenses": 15500, "profit": 11500 },
+    { "month": "Jun", "income": 24500, "expenses": 14000, "profit": 10500 },
+    { "month": "Jul", "income": 26200, "expenses": 15800, "profit": 10400 },
+    { "month": "Aug", "income": 28500, "expenses": 16200, "profit": 12300 },
+    { "month": "Sep", "income": 21000, "expenses": 13000, "profit": 8000 },
+    { "month": "Oct", "income": 29500, "expenses": 17000, "profit": 12500 },
+    { "month": "Nov", "income": 31000, "expenses": 18300, "profit": 12700 },
+    { "month": "Dec", "income": 31500, "expenses": 15000, "profit": 16500 }
+  ],
+  "expenseBreakdown": [
+    { "category": "Salaries", "amount": 72000, "percentage": 43 },
+    { "category": "Marketing", "amount": 28500, "percentage": 17 },
+    { "category": "Operations", "amount": 33600, "percentage": 20 },
+    { "category": "R&D", "amount": 20100, "percentage": 12 },
+    { "category": "Misc", "amount": 13100, "percentage": 8 }
+  ],
+  "transactions": [
+    { "id": 1, "date": "2025-12-15", "description": "Client Project Alpha", "category": "Revenue", "amount": 12500, "type": "income" },
+    { "id": 2, "date": "2025-12-14", "description": "Office Rent", "category": "Operations", "amount": -3200, "type": "expense" },
+    { "id": 3, "date": "2025-12-13", "description": "Software Licenses", "category": "Operations", "amount": -890, "type": "expense" },
+    { "id": 4, "date": "2025-12-12", "description": "Client Project Beta", "category": "Revenue", "amount": 8750, "type": "income" },
+    { "id": 5, "date": "2025-12-11", "description": "Marketing Campaign", "category": "Marketing", "amount": -2100, "type": "expense" },
+    { "id": 6, "date": "2025-12-10", "description": "Consulting Fee", "category": "Revenue", "amount": 5500, "type": "income" },
+    { "id": 7, "date": "2025-12-09", "description": "Team Salaries", "category": "Salaries", "amount": -18000, "type": "expense" },
+    { "id": 8, "date": "2025-12-08", "description": "Product Sales", "category": "Revenue", "amount": 4250, "type": "income" }
+  ]
+}
