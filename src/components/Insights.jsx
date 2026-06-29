@@ -64,7 +64,7 @@ export default function Insights() {
   ];
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+    <div className=" md:grid grid-cols-1 lg:grid-cols-2 gap-5">
       <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-4">
         <div className="flex items-center justify-between mb-8">
           <div>

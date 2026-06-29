@@ -76,7 +76,7 @@
 ## ⚙️ Installation & Setup
 S
 git clone https://github.com/sravankumar27319/dashboard.git
-cd findash
+cd dashboard
 npm install
 npm run dev
 

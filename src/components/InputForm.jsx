@@ -140,10 +140,10 @@ export default function InputForm() {
             <button
               onClick={handleSubmit}
               disabled={submitted}
-              className={`flex-1 py-2.5 rounded-xl text-sm font-semibold text-white transition-all duration-200 flex items-center justify-center gap-2 ${
+              className={`flex-1 py-2.5 rounded-xl text-sm font-semibold text-black transition-all duration-200 flex items-center justify-center gap-2 ${
                 submitted
                   ? "bg-emerald-500"
-                  : "bg-linear-to-r from-violet-600 to-indigo-600 hover:from-indigo-700 hover:to-violet-700 shadow-md shadow-indigo-200"
+                  : "bg-slate-400 hover:bg-slate-700 hover:text-white"
               }`}
             >
               {submitted ? (

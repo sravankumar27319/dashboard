@@ -23,7 +23,7 @@ export default function Dashboard() {
                 {can?.add && (
                   <button
                     onClick={() => setActiveView("form")}
-                    className="text-white bg-linear-to-br from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 transition-all shadow-md hover:shadow-lg"
+                    className="text-white  bg-slate-950 font-medium rounded-lg text-sm px-5 py-2.5 transition-all shadow-md hover:shadow-lg"
                   >
                     + Add Entry
                   </button>
